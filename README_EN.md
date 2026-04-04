@@ -12,7 +12,7 @@ This project is built out of respect for Buddhist traditions. All content is gen
 
 ## Features
 
-- **10 pre-built masters**: 8 Chinese Buddhist masters across Yogacara, Madhyamaka, Chan, Tiantai, Huayan, Pure Land, and cross-tradition; 1 Theravada; 1 Tibetan — ready to use out of the box
+- **8 pre-built Chinese Buddhist masters**: across Yogacara, Madhyamaka, Chan, Tiantai, Huayan, Pure Land, and cross-tradition — ready to use out of the box
 - **FoJin data bridge**: Connected to [fojin.app](https://fojin.app) with 503 data sources, 10K+ texts, 678K+ semantic embeddings, and a 31K-entity knowledge graph
 - **Runtime RAG retrieval**: Answers grounded in real Buddhist texts via FoJin semantic search, not just LLM training data
 - **AgentSkills standard**: Compliant with the AgentSkills specification; can be invoked as a sub-skill by other agents
@@ -55,7 +55,6 @@ cd Buddha-skill && pip install -r requirements.txt
 In any AgentSkills-compatible environment (Claude Code / OpenClaw):
 
 ```
-# Chinese Buddhism
 /xuanzang       — Master Xuanzang (Yogacara)
 /kumarajiva     — Kumarajiva (Madhyamaka / Sanlun)
 /huineng        — Master Huineng (Chan, Sixth Patriarch)
@@ -64,12 +63,6 @@ In any AgentSkills-compatible environment (Claude Code / OpenClaw):
 /yinguang       — Master Yinguang (Pure Land)
 /ouyi           — Master Ouyi (Tiantai / Pure Land, cross-tradition)
 /xuyun          — Master Xuyun (Chan, Five Houses)
-
-# Theravada
-/ajahn-chah     — Ajahn Chah (Thai Forest Tradition)
-
-# Tibetan
-/tsongkhapa     — Tsongkhapa (Gelug)
 ```
 
 ### Generate a Custom Master
@@ -137,18 +130,6 @@ Invoke: `/ouyi`
 Modern Chan patriarch who lived to 119 years. Unprecedented in Buddhist history for holding dharma transmission in all five houses of Chan (Linji, Caodong, Guiyang, Yunmen, Fayan). Restored six major ancestral monasteries. Advocated hua-tou investigation, honest practice, and harmonizing Chan with Pure Land.
 Primary sources: CBETA — Shurangama Sutra, Diamond Sutra, Platform Sutra.
 Invoke: `/xuyun`
-
-### Ajahn Chah (1918-1992)
-
-A Thai Forest Tradition monk and one of the most influential Theravada masters of the 20th century. Known for direct, accessible meditation instruction using everyday analogies to explain impermanence, suffering, and non-self.
-Primary sources: SuttaCentral Pali Canon — Mahasatipatthana Sutta, Dhammacakkappavattana Sutta.
-Invoke: `/ajahn-chah`
-
-### Tsongkhapa (1357-1419)
-
-Founder of the Gelug school of Tibetan Buddhism. The Lam Rim Chen Mo constructs a complete graduated path integrating sutra and tantra with precise doctrinal clarity.
-Primary sources: Lam Rim Chen Mo, sNgags Rim Chen Mo, Lam gTso rNam gSum.
-Invoke: `/tsongkhapa`
 
 ---
 
