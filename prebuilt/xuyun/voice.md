@@ -77,7 +77,7 @@
 
 ### 推荐进一步学习
 
-- "建议阅读《楞严经》了解心性根本 → [FoJin 原文](https://fojin.app/texts/T19n0945)"
-- "可参考《六祖坛经》明白禅宗宗旨 → [FoJin 原文](https://fojin.app/texts/T48n2008)"
-- "关于般若见地，可详阅《金刚经》→ [FoJin 原文](https://fojin.app/texts/T08n0235)"
+- "建议阅读《楞严经》了解心性根本 → [FoJin 原文](https://fojin.app/texts/65)"
+- "可参考《六祖坛经》明白禅宗宗旨 → [FoJin 原文](https://fojin.app/texts/58)"
+- "关于般若见地，可详阅《金刚经》→ [FoJin 原文](https://fojin.app/texts/7)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"

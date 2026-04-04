@@ -34,7 +34,7 @@ user-invocable: true
 
 三无性（trividha-nihsvabhavata）与三性相对：相无性、生无性、胜义无性，说明三性各于不同层面无自性，以遮遣执有之偏。
 
-> 出处：【《成唯识论》卷八】→ https://fojin.app/texts/T31n1585
+> 出处：【《成唯识论》卷八】→ https://fojin.app/texts/44
 
 ### 2. 五位百法——诸法分类体系
 
@@ -68,8 +68,8 @@ user-invocable: true
 
 《般若心经》二百六十字，为般若经典之精髓。"色不异空，空不异色"，"无智亦无得"，皆指向离一切相之般若智慧。
 
-> 出处：【《大般若波罗蜜多经》】→ https://fojin.app/texts/T07n0220
-> 出处：【《般若波罗蜜多心经》】→ https://fojin.app/texts/T08n0251
+> 出处：【《大般若波罗蜜多经》】→ https://fojin.app/texts/5
+> 出处：【《般若波罗蜜多心经》】→ https://fojin.app/texts/9
 
 ### 5. 翻译理念——五种不翻原则
 
@@ -89,12 +89,12 @@ user-invocable: true
 
 | 经典 | 说明 | 链接 |
 |------|------|------|
-| 《大般若波罗蜜多经》 | 六百卷，般若部最大部经典，玄奘法师最宏大的翻译工程 | [阅读原文](https://fojin.app/texts/T07n0220) |
-| 《瑜伽师地论》 | 一百卷，弥勒菩萨说，瑜伽行派根本论典 | [阅读原文](https://fojin.app/texts/T30n1579) |
-| 《成唯识论》 | 综合护法等十家注释世亲《唯识三十颂》而成，唯识宗根本论典 | [阅读原文](https://fojin.app/texts/T31n1585) |
-| 《般若波罗蜜多心经》 | 二百六十字，般若经典之精髓 | [阅读原文](https://fojin.app/texts/T08n0251) |
-| 《阿毗达磨俱舍论》 | 世亲菩萨所造，说一切有部教义之纲要 | [阅读原文](https://fojin.app/texts/T29n1558) |
-| 《大唐西域记》 | 记述西行所经一百三十八国之地理、文化、佛教状况 | [阅读原文](https://fojin.app/texts/T51n2087) |
+| 《大般若波罗蜜多经》 | 六百卷，般若部最大部经典，玄奘法师最宏大的翻译工程 | [阅读原文](https://fojin.app/texts/5) |
+| 《瑜伽师地论》 | 一百卷，弥勒菩萨说，瑜伽行派根本论典 | [阅读原文](https://fojin.app/texts/43) |
+| 《成唯识论》 | 综合护法等十家注释世亲《唯识三十颂》而成，唯识宗根本论典 | [阅读原文](https://fojin.app/texts/44) |
+| 《般若波罗蜜多心经》 | 二百六十字，般若经典之精髓 | [阅读原文](https://fojin.app/texts/9) |
+| 《阿毗达磨俱舍论》 | 世亲菩萨所造，说一切有部教义之纲要 | [阅读原文](https://fojin.app/texts/38) |
+| 《大唐西域记》 | 记述西行所经一百三十八国之地理、文化、佛教状况 | [阅读原文](https://fojin.app/texts/8236) |
 | 《大毗婆沙论》 | 二百卷，说一切有部之百科全书 | [阅读原文](https://fojin.app/texts/T27n1545) |
 | 《因明入正理论》 | 商羯罗主造，佛教因明学入门要典 | [阅读原文](https://fojin.app/texts/T32n1630) |
 
@@ -115,7 +115,7 @@ user-invocable: true
 3. **摄末归本**：摄心所、色法等末为识之所变，归于阿赖耶识之本
 4. **遣相证性**：遣除识之相分、见分，证入圆成实性之真如
 
-> 出处：【《成唯识论》卷九】→ https://fojin.app/texts/T31n1585
+> 出处：【《成唯识论》卷九】→ https://fojin.app/texts/44
 
 ### 深入
 
@@ -126,11 +126,11 @@ user-invocable: true
 - 转第七末那识为**平等性智**：证悟自他平等，大悲普运
 - 转第八阿赖耶识为**大圆镜智**：如大圆镜，照一切法如实而知
 
-> 出处：【《成唯识论》卷十】→ https://fojin.app/texts/T31n1585
+> 出处：【《成唯识论》卷十】→ https://fojin.app/texts/44
 
 **止观双修**：以奢摩他（samatha，止）安定其心，以毗钵舍那（vipasyana，观）照见唯识实相。止观双运，方能证入真如。
 
-> 出处：【《瑜伽师地论》卷三十】→ https://fojin.app/texts/T30n1579
+> 出处：【《瑜伽师地论》卷三十】→ https://fojin.app/texts/43
 
 ## 常用典故与比喻
 
@@ -260,9 +260,9 @@ user-invocable: true
 
 ### 推荐进一步学习
 
-- "建议阅读《成唯识论》相关段落 → [FoJin 原文](https://fojin.app/texts/T31n1585)"
-- "可参考《瑜伽师地论》中对此义之详解 → [FoJin 原文](https://fojin.app/texts/T30n1579)"
-- "关于般若空性，可详阅《般若波罗蜜多心经》 → [FoJin 原文](https://fojin.app/texts/T08n0251)"
+- "建议阅读《成唯识论》相关段落 → [FoJin 原文](https://fojin.app/texts/44)"
+- "可参考《瑜伽师地论》中对此义之详解 → [FoJin 原文](https://fojin.app/texts/43)"
+- "关于般若空性，可详阅《般若波罗蜜多心经》 → [FoJin 原文](https://fojin.app/texts/9)"
 - "因明论式之详细规则，可参阅《因明入正理论》 → [FoJin 原文](https://fojin.app/texts/T32n1630)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"
 

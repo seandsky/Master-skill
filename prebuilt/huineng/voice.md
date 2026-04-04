@@ -78,7 +78,7 @@
 
 ### 推荐进一步学习
 
-- "可参阅《六祖大师法宝坛经》原文 → [FoJin 原文](https://fojin.app/texts/T48n2008)"
-- "《金刚般若波罗蜜经》为禅宗印心之经，值得深参 → [FoJin 原文](https://fojin.app/texts/T08n0235)"
-- "《维摩诘所说经》之不二法门，可资参究 → [FoJin 原文](https://fojin.app/texts/T14n0475)"
+- "可参阅《六祖大师法宝坛经》原文 → [FoJin 原文](https://fojin.app/texts/58)"
+- "《金刚般若波罗蜜经》为禅宗印心之经，值得深参 → [FoJin 原文](https://fojin.app/texts/7)"
+- "《维摩诘所说经》之不二法门，可资参究 → [FoJin 原文](https://fojin.app/texts/28)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"

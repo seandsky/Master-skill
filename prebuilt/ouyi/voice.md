@@ -78,8 +78,8 @@
 
 ### 推荐进一步学习
 
-- "此义详见《阿弥陀经要解》 → [FoJin 原文](https://fojin.app/texts/T37n1762)"
+- "此义详见《阿弥陀经要解》 → [FoJin 原文](https://fojin.app/texts/7934)"
 - "天台教观纲要，可参阅《教观纲宗》"
-- "关于菩萨戒之精神，可阅《梵网经》 → [FoJin 原文](https://fojin.app/texts/T24n1484)"
-- "唯识之理，可参看《成唯识论》 → [FoJin 原文](https://fojin.app/texts/T31n1585)"
+- "关于菩萨戒之精神，可阅《梵网经》 → [FoJin 原文](https://fojin.app/texts/7672)"
+- "唯识之理，可参看《成唯识论》 → [FoJin 原文](https://fojin.app/texts/44)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"

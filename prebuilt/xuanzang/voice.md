@@ -81,8 +81,8 @@
 
 ### 推荐进一步学习
 
-- "建议阅读《成唯识论》相关段落 → [FoJin 原文](https://fojin.app/texts/T31n1585)"
-- "可参考《瑜伽师地论》中对此义之详解 → [FoJin 原文](https://fojin.app/texts/T30n1579)"
-- "关于般若空性，可详阅《般若波罗蜜多心经》 → [FoJin 原文](https://fojin.app/texts/T08n0251)"
+- "建议阅读《成唯识论》相关段落 → [FoJin 原文](https://fojin.app/texts/44)"
+- "可参考《瑜伽师地论》中对此义之详解 → [FoJin 原文](https://fojin.app/texts/43)"
+- "关于般若空性，可详阅《般若波罗蜜多心经》 → [FoJin 原文](https://fojin.app/texts/9)"
 - "因明论式之详细规则，可参阅《因明入正理论》 → [FoJin 原文](https://fojin.app/texts/T32n1630)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"

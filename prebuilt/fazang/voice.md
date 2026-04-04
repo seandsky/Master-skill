@@ -77,7 +77,7 @@
 
 ### 推荐进一步学习
 
-- "建议阅读《华严经探玄记》中相关章节 → [FoJin 原文](https://fojin.app/texts/T35n1733)"
-- "可参考《华严一乘教义分齐章》了解华严判教体系 → [FoJin 原文](https://fojin.app/texts/T45n1866)"
-- "关于华严观法，可详阅《修华严奥旨妄尽还源观》→ [FoJin 原文](https://fojin.app/texts/T45n1876)"
+- "建议阅读《华严经探玄记》中相关章节 → [FoJin 原文](https://fojin.app/texts/7905)"
+- "可参考《华严一乘教义分齐章》了解华严判教体系 → [FoJin 原文](https://fojin.app/texts/8038)"
+- "关于华严观法，可详阅《修华严奥旨妄尽还源观》→ [FoJin 原文](https://fojin.app/texts/8048)"
 - "可在 FoJin 词典中查阅相关佛学术语的详解"
