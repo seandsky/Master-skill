@@ -1,4 +1,4 @@
-# buddha-skill
+# Buddha-skill
 
 基于佛教经典文献的法师教学角色生成器，遵循 AgentSkills 标准，由 [FoJin](https://fojin.app) 驱动。
 
@@ -141,7 +141,7 @@ SKILL.md (AgentSkills 入口)
 
 [FoJin](https://fojin.app) 是一个佛教文本聚合平台，整合了 503 个数据源、10K+ 篇文本、678K+ 条语义向量嵌入，以及涵盖 31K 实体的知识图谱，覆盖 CBETA 汉文大藏经、SuttaCentral 巴利藏及英译、84000 藏经英译等主要语料库。
 
-buddha-skill 通过 `tools/fojin_bridge.py` 接入 FoJin API，实现：
+Buddha-skill 通过 `tools/fojin_bridge.py` 接入 FoJin API，实现：
 
 - 知识图谱实体检索（法师生平、师承、宗派）
 - 语义向量相似度搜索（教义相关经文）

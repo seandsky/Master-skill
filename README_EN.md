@@ -1,4 +1,4 @@
-# buddha-skill
+# Buddha-skill
 
 An AgentSkills-standard generator for AI teaching personas based on historical Buddhist masters, powered by [FoJin](https://fojin.app) — a Buddhist text aggregation platform.
 
@@ -127,7 +127,7 @@ SKILL.md (AgentSkills entry point)
 
 [FoJin](https://fojin.app) is a Buddhist text aggregation platform integrating 503 data sources, 10K+ texts, 678K+ semantic vector embeddings, and a knowledge graph of 31K entities. It covers major corpora including CBETA Chinese Buddhist Canon, SuttaCentral Pali Canon and translations, and 84000 Tibetan Buddhist translations.
 
-buddha-skill connects to the FoJin API via `tools/fojin_bridge.py` to enable:
+Buddha-skill connects to the FoJin API via `tools/fojin_bridge.py` to enable:
 
 - Knowledge graph entity retrieval (teacher biography, lineage, school)
 - Semantic similarity search (doctrinally relevant sutras)
