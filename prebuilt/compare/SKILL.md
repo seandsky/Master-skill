@@ -118,10 +118,12 @@ PROJECT_ROOT="$(dirname "$(dirname "$(dirname "$SKILL_FILE")")")"
 
 2. **加载法师角色内容**：`$PROJECT_ROOT/prebuilt/{slug}/teaching.md` 和 `voice.md`
 
-3. **执行语义检索**：
+3. **执行语义检索**（使用 `--brief` 减少输出冗余）：
    ```bash
-   python3 "$PROJECT_ROOT/tools/rag_query.py" semantic "<问题>" --top_k 3
+   python3 "$PROJECT_ROOT/tools/rag_query.py" semantic "<问题>" --top_k 3 --brief
    ```
+
+   `--brief` 模式每条结果只显示 2 行（经名+链接+80字摘要），避免 60+ 行的完整经文内容刷屏。
 
 4. **过滤结果**：根据该法师 meta.json 的 `search_scope.primary_cbeta_ids` 过滤检索结果
 

@@ -19,11 +19,25 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fojin_bridge import create_bridge, FojinUnavailableError
 
 
-def format_search_results(data: dict) -> str:
+def format_search_results(data: dict, brief: bool = False) -> str:
     """Format keyword search results for LLM consumption."""
     items = data.get("items") or data.get("results") or []
     if not items:
         return "未找到相关结果。"
+
+    if brief:
+        total = data.get("total", len(items))
+        lines = [f"关键词搜索 {total} 条，显示 {len(items)}："]
+        for i, item in enumerate(items, 1):
+            title = item.get("title", "无标题")
+            text_id = item.get("text_id", item.get("id", ""))
+            link = f"https://fojin.app/texts/{text_id}" if text_id else ""
+            snippet = item.get("highlight", item.get("snippet", item.get("content", "")))
+            snippet_str = str(snippet).strip().replace("\n", " ")[:80]
+            lines.append(f"{i}. {title} — {link}")
+            if snippet_str:
+                lines.append(f"   {snippet_str}...")
+        return "\n".join(lines)
 
     lines = []
     for i, item in enumerate(items, 1):
@@ -42,7 +56,6 @@ def format_search_results(data: dict) -> str:
         if text_id:
             lines.append(f"FoJin链接: https://fojin.app/texts/{text_id}")
         if snippet:
-            # Truncate long snippets
             snippet_str = str(snippet)
             if len(snippet_str) > 500:
                 snippet_str = snippet_str[:500] + "..."
@@ -54,11 +67,38 @@ def format_search_results(data: dict) -> str:
     return "\n".join(lines)
 
 
-def format_semantic_results(data: dict) -> str:
-    """Format semantic search results for LLM consumption."""
+def format_semantic_results(data: dict, brief: bool = False) -> str:
+    """Format semantic search results for LLM consumption.
+
+    Args:
+        data: API response dict
+        brief: If True, output one-line-per-result (compact mode for meta-skills
+               like /compare-masters). If False, output full content excerpts.
+    """
     items = data.get("items") or data.get("results") or []
     if not items:
         return "语义检索未找到相关经文。"
+
+    if brief:
+        lines = [f"语义检索 {len(items)} 条："]
+        for i, item in enumerate(items, 1):
+            title = item.get("title", "无标题")
+            score = item.get("score", item.get("similarity", ""))
+            content = item.get("content", item.get("snippet", item.get("text", "")))
+            text_id = item.get("text_id", item.get("id", ""))
+            juan = item.get("juan_num", item.get("juan", ""))
+
+            link = f"https://fojin.app/texts/{text_id}" if text_id else ""
+            if text_id and juan:
+                link += f"/juan/{juan}"
+
+            score_str = f" (score={score:.2f})" if isinstance(score, (int, float)) else ""
+            snippet = str(content).strip().replace("\n", " ")[:80]
+
+            lines.append(f"{i}. {title}{score_str} — {link}")
+            if snippet:
+                lines.append(f"   {snippet}...")
+        return "\n".join(lines)
 
     lines = [f"语义检索返回 {len(items)} 条相关经文：\n"]
     for i, item in enumerate(items, 1):
@@ -158,13 +198,13 @@ def format_kg_results(data: dict) -> str:
 def cmd_search(args):
     bridge = create_bridge()
     result = bridge.search_texts(args.query, sources=args.sources, size=args.top_k)
-    print(format_search_results(result))
+    print(format_search_results(result, brief=args.brief))
 
 
 def cmd_semantic(args):
     bridge = create_bridge()
     result = bridge.semantic_search(args.query, top_k=args.top_k)
-    print(format_semantic_results(result))
+    print(format_semantic_results(result, brief=args.brief))
 
 
 def cmd_dict(args):
@@ -192,12 +232,14 @@ def main():
     p_search.add_argument("query", help="搜索关键词")
     p_search.add_argument("--sources", default=None, help="限定来源，如 cbeta")
     p_search.add_argument("--top_k", type=int, default=5, help="返回条数 (默认 5)")
+    p_search.add_argument("--brief", action="store_true", help="简洁输出（一行一条）")
     p_search.set_defaults(func=cmd_search)
 
     # semantic
     p_sem = subparsers.add_parser("semantic", help="语义向量检索")
     p_sem.add_argument("query", help="语义查询")
     p_sem.add_argument("--top_k", type=int, default=5, help="返回条数 (默认 5)")
+    p_sem.add_argument("--brief", action="store_true", help="简洁输出（一行一条）")
     p_sem.set_defaults(func=cmd_semantic)
 
     # dict
