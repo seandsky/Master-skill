@@ -78,6 +78,16 @@ for d in prebuilt/*/; do ln -sf "$(pwd)/$d" ~/.claude/skills/"$(basename $d)"; d
 ln -sf "$(pwd)" ~/.claude/skills/create-master
 ```
 
+**Codex CLI**
+
+```bash
+git clone https://github.com/xr843/Master-skill ~/Master-skill
+cd ~/Master-skill && pip install -r requirements.txt
+# Register skills (symlink to ~/.codex/skills/)
+for d in prebuilt/*/; do ln -sf "$(pwd)/$d" ~/.codex/skills/"$(basename $d)"; done
+ln -sf "$(pwd)" ~/.codex/skills/create-master
+```
+
 **OpenClaw**
 
 ```bash
@@ -94,7 +104,7 @@ cd Master-skill && pip install -r requirements.txt
 
 ### Use a Pre-built Master
 
-In any AgentSkills-compatible environment (Claude Code / OpenClaw):
+In any AgentSkills-compatible environment (Claude Code / Codex CLI / OpenClaw):
 
 ```
 /xuanzang       — Master Xuanzang (Yogacara)

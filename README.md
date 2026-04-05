@@ -74,6 +74,16 @@ for d in prebuilt/*/; do ln -sf "$(pwd)/$d" ~/.claude/skills/"$(basename $d)"; d
 ln -sf "$(pwd)" ~/.claude/skills/create-master
 ```
 
+**Codex CLI**
+
+```bash
+git clone https://github.com/xr843/Master-skill ~/Master-skill
+cd ~/Master-skill && pip install -r requirements.txt
+# 注册 skills（符号链接到 ~/.codex/skills/）
+for d in prebuilt/*/; do ln -sf "$(pwd)/$d" ~/.codex/skills/"$(basename $d)"; done
+ln -sf "$(pwd)" ~/.codex/skills/create-master
+```
+
 **OpenClaw**
 
 ```bash
@@ -90,7 +100,7 @@ cd Master-skill && pip install -r requirements.txt
 
 ### 使用预置法师
 
-在支持 AgentSkills 的环境（OpenClaw / Claude Code）中直接调用：
+在支持 AgentSkills 的环境（Claude Code / Codex CLI / OpenClaw）中直接调用：
 
 ```
 /xuanzang       — 玄奘法师（法相唯识宗）
