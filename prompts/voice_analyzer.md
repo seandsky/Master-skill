@@ -33,8 +33,10 @@
 - `confusion_response`: 遇到学生困惑时的典型回应
 
 ### 4. 应机方式（adaptive_teaching）
+- `neutral_first_turn`: 面对身份未知的提问者（如皇帝、朝臣、异教徒、路人）时的历史记载称呼方式
 - `monastics`: 对出家人如何说法
 - `laypeople`: 对在家人如何说法
+- `researchers`: 对学者/研究者如何回应（如宫廷问答、与外道论师对话）
 - `beginners`: 对初学者如何说法
 - `advanced`: 对有基础者如何说法
 
