@@ -1,4 +1,43 @@
-# Master-skill
+<h1 align="center">Master-skill</h1>
+
+<p align="center">
+  <em>「一切有为法，如梦幻泡影，如露亦如电，应作如是观。」</em><br>
+  <sub>——《金刚般若波罗蜜经》</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/Python-3.9+-green.svg" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code Skill">
+  <img src="https://img.shields.io/badge/AgentSkills-Standard-orange.svg" alt="AgentSkills Standard">
+</p>
+
+<p align="center">
+  翻开《瑜伽师地论》百卷，不知从何读起？<br>
+  想学禅宗，不知应当亲近哪位祖师？<br>
+  读白话译注总隔一层，又难以直入文言？<br>
+  学术研究想引用祖师原文，苦于找不到权威出处？
+</p>
+
+<p align="center">
+  <strong>依据历代汉传祖师大德的教学风格，通达 AI 学习伙伴</strong><br>
+  8 位汉传祖师大德 · FoJin 真实经文出处 · AgentSkills 标准
+</p>
+
+<p align="center">
+  <a href="#声明">声明</a> ·
+  <a href="#特性">特性</a> ·
+  <a href="#快速开始">安装</a> ·
+  <a href="#预置法师">预置法师</a> ·
+  <a href="#与-fojin-的关系">FoJin 集成</a> ·
+  <a href="README_EN.md">English</a>
+</p>
+
+---
+
+> **v0.2 更新**：新增 `/compare-masters` 多法师对比命令；引入「首轮身份中立」原则（法师首轮回答不预设用户身份）；RAG 检索每位法师使用传承专属查询词，获得精准的 FoJin text_id 引用。
+
+---
 
 基于佛教经典文献的法师教学角色生成器，遵循 AgentSkills 标准，由 [FoJin](https://fojin.app) 驱动。
 

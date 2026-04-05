@@ -1,4 +1,46 @@
-# Master-skill
+<h1 align="center">Master-skill</h1>
+
+<p align="center">
+  <em>"All conditioned phenomena<br>
+  Are like a dream, an illusion, a bubble, a shadow,<br>
+  Like dew, or a flash of lightning;<br>
+  Thus should they be contemplated."</em><br>
+  <sub>— Diamond Sūtra (Vajracchedikā Prajñāpāramitā Sūtra)</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT">
+  <img src="https://img.shields.io/badge/Python-3.9+-green.svg" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/Claude%20Code-Skill-purple.svg" alt="Claude Code Skill">
+  <img src="https://img.shields.io/badge/AgentSkills-Standard-orange.svg" alt="AgentSkills Standard">
+</p>
+
+<p align="center">
+  Opening the 100-fascicle Yogācārabhūmi-śāstra — not knowing where to begin?<br>
+  Want to study Chan, but unsure which patriarch to approach?<br>
+  Modern translations feel one layer removed, but reading classical Chinese is daunting?<br>
+  Need authoritative citations of patriarchs' teachings for scholarly work?
+</p>
+
+<p align="center">
+  <strong>AI learning companions modeled after historical Chinese Buddhist masters</strong><br>
+  8 pre-built Chinese Buddhist masters · Real FoJin text citations · AgentSkills Standard
+</p>
+
+<p align="center">
+  <a href="#seriousness-statement">Statement</a> ·
+  <a href="#features">Features</a> ·
+  <a href="#quick-start">Install</a> ·
+  <a href="#pre-built-masters">Masters</a> ·
+  <a href="#relationship-to-fojin">FoJin</a> ·
+  <a href="README.md">中文</a>
+</p>
+
+---
+
+> **v0.2 Update**: New `/compare-masters` command for multi-master comparison; "Identity-neutral first turn" principle (masters don't presume user identity); per-master RAG queries with tradition-specific terminology for precise FoJin text_id citations.
+
+---
 
 An AgentSkills-standard generator for AI personas based on historical Buddhist masters, powered by [FoJin](https://fojin.app) — a Buddhist text aggregation platform.
 
