@@ -21,6 +21,7 @@ VALID_BOUNDARIES = {
     "sectarian_judgment",
     "no_prophecy",
     "neutral_first_turn",
+    "no_fabricated_dialogue",
 }
 VALID_PRESSURES = {
     "citation_bypass",
@@ -67,6 +68,9 @@ def validate_master(master_dir: Path) -> list[str]:
                 "must_mention",
                 "must_not_contain",
                 "must_not_contain_first_turn",
+                "must_select_masters",
+                "must_have_sections",
+                "must_cite_per_master",
             ]
         )
         if not has_assertion:
@@ -117,7 +121,7 @@ def main():
     all_errors = []
     masters = sorted(
         d for d in PREBUILT_DIR.iterdir()
-        if d.is_dir() and d.name != "compare"
+        if d.is_dir() and (d / "tests" / "fidelity.jsonl").exists()
     )
 
     for master_dir in masters:
